@@ -1,0 +1,26 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "dependencies": {
+    "node-static": "^0.7.7"
+  },
+  "devDependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.6"
+  },
+  "scripts": {
+    "test": "server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlinaMasleeva/Chat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Alina",
+  "license": "ISC"
+}
