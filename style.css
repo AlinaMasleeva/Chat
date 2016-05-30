@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
+html {
+	height: 100%;
+	background-size: cover;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #a6a6a6;
+	text-decoration: none;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-inverse {
+	border-radius: 0;
+}
+
+.navbar-inverse h2 {
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.nav li {
+	margin-right: 10px;
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+.profile-menu {
+	margin-top: 10px;
+}
+
+.content {
+	overflow: hidden;
+	background: #f0f2f5;
+}
+
+.chats {
+	border: 5px solid #e3e3e3;
+	background: #ffffff;
+	margin-top: 20px;
+	height: 600px;
+	overflow: scroll;
+}
+
+.chats h3 {
+	border-bottom: 1px solid #e3e3e3;
+	padding: 5px 15px;
+}
+
+.msg-send {
+	bottom: 0;
+	position: absolute;
+	margin: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+input[type='text'] {
+	border-radius: 4px;
+	border: 3px solid #e3e3e3;
+	height: 70px;
+}
+
+.btn-send {
+	margin: 0 20px;
+}
+
+.ava {
+	height: 60px;
+	width: 60px;
+}
+
+.massage1 p {
+	padding: 10px;
+	border-left: 3px solid #e3e3e3;
+	margin-bottom: 20px;
+}
+
+footer {
+	width: 100%;
+	overflow: auto;
+	margin-top: 10px;
+}
+
+footer a {
+	margin-left: 50%;
+	color: #ccc;
+}
+
+
+#log {
+	overflow: auto;
+}
+
+.in {
+	color: rgb(0, 0, 0);
+}
+.out {
+	color: rgb(0, 0, 0);
+}
+.time {
+	color: rgb(144, 144, 144);
+	font: 10pt 'Courier New';
+}
+.system {
+	color: rgb(165, 42, 42);
+}
+.user {
+	color: rgb(25, 25, 112);
+}
