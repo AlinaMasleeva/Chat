@@ -38,6 +38,10 @@ a {
 	margin-top: 10px;
 }
 
+.nav li {
+	margin-right: 10px;
+}
+
 .text-white {
 	color: #ffffff;
 }

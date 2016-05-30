@@ -1,3 +1,13 @@
+window.onload = function(){
+    var showPopup = document.getElementById('Login');
+    var btn = document.getElementById('btn-login');
+    btn.onclick = function(){
+        showPopup.setAttribute("display", "block");
+
+        showPopup.className += "in";
+    };
+};
+
 strings = {
     'connected': '[sys][time]%time%[/time]: Вы успешно соединились к сервером как [user]%name%[/user].[/sys]',
     'userJoined': '[sys][time]%time%[/time]: Пользователь [user]%name%[/user] присоединился к чату.[/sys]',
@@ -8,9 +18,9 @@ strings = {
 window.onload = function() {
 
     if (navigator.userAgent.toLowerCase().indexOf('chrome') != -1) {
-        socket = io.connect('http://46.182.31.65:8080', {'transports': ['xhr-polling']});
+        socket = io.connect('http://127.0.0.1:8080', {'transports': ['xhr-polling']});
     } else {
-        socket = io.connect('http://46.182.31.65:8080');
+        socket = io.connect('http://127.0.0.1:8080');
     }
     socket.on('connect', function () {
         socket.on('message', function (msg) {
